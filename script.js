@@ -1,4 +1,3 @@
-console.log('hello world')
 
 const choices = ['rock', 'paper', 'scissors']
 
@@ -27,9 +26,9 @@ function playRound(playerSelection, computerSelection) {
     
 }
 
-const playerSelection = window.prompt('Enter you choice.')
+// const playerSelection = window.prompt('Enter you choice.')
 const computerSelection = computerPlay()
 
 // console.log(`Player selected ${playerSelection}\nComputer selected ${computerSelection}`);
 
-console.log(playRound(playerSelection, computerSelection));
+// console.log(playRound(playerSelection, computerSelection));
