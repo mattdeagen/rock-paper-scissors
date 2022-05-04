@@ -10,19 +10,33 @@
 </head>
 <body>
     <h1 id="title">Rock Paper Scissors</h1>
-    <!-- TODO: make buttons -->
-    <h2 id="instructions">Choose your weapon:</h2>
-    <div class="choice-container">
-        <div class="choice">
-            <i class="fa-solid fa-hand-back-fist"></i>
+    <h2>First to 5 points wins!</h2>
+
+    <div class="scoreboard-container">
+        <div class="score">
+            <h3>Player Score:</h3>
+            <p id="player-score">0</p>
         </div>
-        <div class="choice">
-            <i class="fa-solid fa-scroll"></i>
-        </div>
-        <div class="choice">
-            <i class="fa-solid fa-scissors"></i>
+        <div class="score">
+            <h3>Computer Score:</h3>
+            <p id="computer-score">0</p>
         </div>
     </div>
+    
+    <h2 id="instructions">Choose your weapon:</h2>
+
+    <div class="choice-container">
+        <button class="choice" id="rock-btn" value="rock">
+            <i class="fa-solid fa-hand-back-fist"></i>
+        </button>
+        <button class="choice" id="paper-btn" value="paper">
+            <i class="fa-solid fa-scroll"></i>
+        </button>
+        <button class="choice" id="scissors-btn" value="scissors">
+            <i class="fa-solid fa-scissors"></i>
+        </button>
+    </div>
+    <p id="results"></p>
 
     <script src="script.js"></script>
 </body>
